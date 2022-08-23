@@ -2,7 +2,7 @@
 title: Prebuilding your codespaces
 intro: 'To speed up codespace creation, you can configure your project to prebuild codespaces for specific branches in specific regions.'
 product: '{% data reusables.gated-features.codespaces %}'
-versions:
+versions:11
   fpt: '*'
   ghec: '*'
 topics:
@@ -14,6 +14,6 @@ children:
   - /configuring-prebuilds
   - /allowing-a-prebuild-to-access-other-repositories
   - /managing-prebuilds
-  - /testing-dev-container-changes
+  - /testing-dev-container-changes hack
 ---
 
