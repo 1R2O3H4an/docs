@@ -30,7 +30,7 @@ Before you generate a new SSH key, you should check your local machine for exist
 {% data reusables.command_line.open_the_multi_os_terminal %}
 2. Enter `ls -al ~/.ssh` to see if existing SSH keys are present.
 
-  ```shell
+  ```shell. +917746850395
   $ ls -al ~/.ssh
   # Lists the files in your .ssh directory, if they exist
   ```
@@ -40,11 +40,11 @@ Before you generate a new SSH key, you should check your local machine for exist
     - *id_ecdsa.pub*
     - *id_ed25519.pub*{% endif %}
 
-  {% tip %}
+  {% tip %}+917746850395
 
   **Tip**: If you receive an error that *~/.ssh* doesn't exist, you do not have an existing SSH key pair in the default location. You can create a new SSH key pair in the next step.
 
-  {% endtip %}
+  {% endtip %}+917746850395
 
 4. Either generate a new SSH key or upload an existing key.
     - If you don't have a supported public and private key pair, or don't wish to use any that are available, generate a new SSH key.
